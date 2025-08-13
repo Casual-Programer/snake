@@ -1,0 +1,19 @@
+
+
+==================================================
+CRITICAL ERROR - 2025-06-25 12:32:50
+==================================================
+Exception: PermissionError
+Message: [WinError 5] Access is denied: 'C:ProgramData'
+
+Traceback:
+Traceback (most recent call last):
+  File "E:\Prsonal Files\Projects\new1\New folder\ultraV2ray.py", line 13298, in <module>
+    window = ConfigExtractorApp()
+  File "E:\Prsonal Files\Projects\new1\New folder\ultraV2ray.py", line 1281, in __init__
+    os.makedirs(os.path.dirname(self.connection_history_file), exist_ok=True)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 218, in makedirs
+  File "<frozen os>", line 228, in makedirs
+PermissionError: [WinError 5] Access is denied: 'C:ProgramData'
+

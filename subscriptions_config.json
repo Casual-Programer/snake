@@ -1,0 +1,29 @@
+{
+  "subscriptions": [
+    [
+      "Barry-Far SS",
+      "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Splitted-By-Protocol/ss.txt"
+    ],
+    [
+      "Barry-Far VMess",
+      "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Splitted-By-Protocol/vmess.txt"
+    ],
+    [
+      "Barry-Far VLess",
+      "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Splitted-By-Protocol/vless.txt"
+    ],
+    [
+      "Epodonios SS",
+      "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/ss.txt"
+    ],
+    [
+      "Epodonios Vless",
+      "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/vless.txt"
+    ],
+    [
+      "Sub",
+      "https://sub.myvipnet.com/sub/Njk2MDg1NTc1NV82ZGE2LDE3NDI4NDg3NTUrInEUrSwWD"
+    ]
+  ],
+  "last_updated": "2025-06-25 12:32:51"
+}

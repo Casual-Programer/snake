@@ -1,0 +1,112 @@
+[2025-06-25 12:33:51] Log file created/reset on application startup
+[2025-06-25 12:33:51.611] Temp directory: e:\Prsonal Files\Projects\new1\New folder\temp
+[2025-06-25 12:33:51.612] Download target directory: e:\Prsonal Files\Projects\new1\New folder
+[2025-06-25 12:33:51.760] Application UI shown.
+[2025-06-25 12:33:51.932] Xray process count reset from 0 to 0
+[2025-06-25 12:33:51.933] Reset Xray semaphore with limit 15
+[2025-06-25 12:33:51.941] Xray process counter reset on startup
+[2025-06-25 12:33:51.946] Attempting to kill all Xray processes
+[2025-06-25 12:33:52.168] Killed all Xray processes
+[2025-06-25 12:33:52.169] Killed any existing Xray processes on startup
+[2025-06-25 12:33:52.182] Loaded 6 connection history entries
+[2025-06-25 12:33:54.523] Loaded 45 extracted profiles
+[2025-06-25 12:33:54.619] Xray executable found: Xray 24.12.31 (Xray, Penetrates Everything.) 4be32e9 (go1.23.4 windows/amd64)
+[2025-06-25 12:33:54.619] Deferred startup tasks initiated.
+[2025-06-25 12:33:54.620] Application profiles file 'app_profiles.json' not found. Initializing with empty profiles.
+[2025-06-25 12:33:54.621] Populated app profiles list widget with 0 items.
+[2025-06-25 12:33:54.621] No app profile selected.
+[2025-06-25 12:33:54.621] Application profiles loaded after deferred startup tasks.
+[2025-06-25 12:33:54.725] Updated history combo with 6 entries
+[2025-06-25 12:33:54.729] Updated profile combos with 45 extracted profiles
+[2025-06-25 12:33:54.729] Initialized UI components with loaded data
+[2025-06-25 12:33:54.729] Loaded 6 subscriptions from config file
+[2025-06-25 12:33:54.730] Subscriptions loaded asynchronously.
+[2025-06-25 12:33:54.820] Loaded 0 profiles from e:\Prsonal Files\Projects\new1\New folder\predefined_profiles
+[2025-06-25 12:33:54.821] Profiles loaded asynchronously.
+[2025-06-25 12:33:55.119] Monitoring timers started.
+[2025-06-25 12:34:02.690] Fetching pasted subscription/config...
+[2025-06-25 12:34:02.693] Updating results table with 0 filtered configs...
+[2025-06-25 12:34:02.694] Results table updated.
+[2025-06-25 12:34:02.695] Updating testing table...
+[2025-06-25 12:34:02.695] No configs loaded to display in testing table.
+[2025-06-25 12:34:02.709] Applying filters - Protocols: [], Countries: []
+[2025-06-25 12:34:02.711] Protocol filter 'All': 1 valid/testable configs (excluded: ['unknown', 'comment', 'error', 'ssr']).
+[2025-06-25 12:34:02.711] Country filter 'All': 1 configs (no country filtering applied).
+[2025-06-25 12:34:02.711] Updating results table with 1 filtered configs...
+[2025-06-25 12:34:02.712] Results table updated.
+[2025-06-25 12:34:02.712] Updating testing table...
+[2025-06-25 12:34:02.713] Populating testing table with 1 configs.
+[2025-06-25 12:34:02.724] Testing table updated.
+[2025-06-25 12:34:02.724] Updated Ping Statistics: Available=0/1
+[2025-06-25 12:34:02.724] Extracted profile: Unknown with 1 configs
+[2025-06-25 12:34:05.638] Saved 46 extracted profiles
+[2025-06-25 12:34:05.639] Updated profile combos with 46 extracted profiles
+[2025-06-25 12:34:05.639] Extracted 1 profiles from current configs
+[2025-06-25 12:34:05.640] Saved 6 connection history entries
+[2025-06-25 12:34:05.641] Updated history combo with 6 entries
+[2025-06-25 12:34:05.642] Switched to Testing tab
+[2025-06-25 12:34:08.595] Context menu: Attempting to connect to config at original index 0 - 🔒 SS-TCP-NA 🇬🇧 GB-74.177.141.93:443
+[2025-06-25 12:34:08.595] Attempting to establish proxy connection for: 🔒 SS-TCP-NA 🇬🇧 GB-74.177.141.93:443
+[2025-06-25 12:34:08.598] Allocated port 11065
+[2025-06-25 12:34:08.599] Generating Xray config for: ss 74.177.141.93:443
+[2025-06-25 12:34:08.599] Ensured API routing rule (api_inbound -> api) is the first rule.
+[2025-06-25 12:34:08.600] Standard: IP leak prevention IS CHECKED. Routing most traffic via proxy.
+[2025-06-25 12:34:08.600] Set standard routing rules after API rule: [{"type": "field", "ip": ["geoip:private"], "outboundTag": "direct"}, {"type": "field", "network": "tcp,udp", "outboundTag": "proxy_outbound"}]
+[2025-06-25 12:34:08.600] DNS leak prevention IS CHECKED. Selected DNS: 'Cloudflare (1.1.1.1)'
+[2025-06-25 12:34:08.601] Xray config generation complete.
+[2025-06-25 12:34:08.602] Active connection config written to: e:\Prsonal Files\Projects\new1\New folder\temp\active_connection_11065.json
+[2025-06-25 12:34:08.603] Starting Xray connection: xray.exe run -c e:\Prsonal Files\Projects\new1\New folder\temp\active_connection_11065.json
+[2025-06-25 12:34:08.620] Xray connection process started with PID: 20172
+[2025-06-25 12:34:10.828] GeoIP lookup for 74.177.141.93 will use direct connection (proxy not globally enabled or app proxy not active).
+[2025-06-25 12:34:10.828] System Proxy checkbox enabled for Windows.
+[2025-06-25 12:34:10.828] System Wide Proxy checkbox toggled to: True
+[2025-06-25 12:34:10.829] Enabling system-wide proxy.
+[2025-06-25 12:34:10.833] Enabled Windows system proxy: 127.0.0.1:11065
+[2025-06-25 12:34:10.870] System notified of proxy settings change.
+[2025-06-25 12:34:10.870] System-wide proxy ENFORCED via checkbox.
+[2025-06-25 12:34:10.870] Skipping reconnection during initial proxy setup.
+[2025-06-25 12:34:10.871] System Proxy checkbox automatically checked on connect.
+[2025-06-25 12:34:10.873] Data transfer stats timer started (1 second updates).
+[2025-06-25 12:34:10.873] Successfully connected to: 🔒 SS-TCP-NA 🇬🇧 GB-74.177.141.93:443
+[2025-06-25 12:34:11.872] STATS_DEBUG: Stats monitoring started (demo mode - 1 second updates)
+[2025-06-25 12:34:15.843] GeoIP request timeout for 74.177.141.93
+[2025-06-25 12:34:45.583] Disconnect button clicked or connection change. Terminating active Xray connection...
+[2025-06-25 12:34:45.583] Terminating Xray process PID: 20172
+[2025-06-25 12:34:45.598] Deleted active Xray config file: e:\Prsonal Files\Projects\new1\New folder\temp\active_connection_11065.json
+[2025-06-25 12:34:45.598] Released port 11065
+[2025-06-25 12:34:45.598] Disabling system-wide proxy as it was set by the app.
+[2025-06-25 12:34:45.599] Disabled Windows system proxy (ProxyEnable set to 0).
+[2025-06-25 12:34:45.602] System notified of proxy settings change.
+[2025-06-25 12:34:45.603] Data transfer stats timer stopped.
+[2025-06-25 12:34:45.603] System Wide Proxy checkbox toggled to: False
+[2025-06-25 12:34:45.603] System proxy toggled OFF, no active Xray connection. Nothing to change.
+[2025-06-25 12:34:45.604] Xray connection disconnected and UI reset.
+[2025-06-25 15:09:41.037] 📡 CALLING process_input() for selected subscription...
+[2025-06-25 15:09:41.271] Processing predefined subscription 'Epodonios Vless'
+[2025-06-25 15:09:41.278] Updating results table with 0 filtered configs...
+[2025-06-25 15:09:41.281] Results table updated.
+[2025-06-25 15:09:41.283] Updating testing table...
+[2025-06-25 15:09:41.283] No configs loaded to display in testing table.
+[2025-06-25 15:10:05.805] Applying filters - Protocols: ['vless-ws'], Countries: ['United States']
+[2025-06-25 15:10:05.830] Protocol filter applied: 6073 configs matching any of ['vless-ws'].
+[2025-06-25 15:10:05.917] Country filter applied: 904 configs matching any of ['United States'].
+[2025-06-25 15:10:05.917] Updating results table with 904 filtered configs...
+[2025-06-25 15:10:06.444] Results table updated.
+[2025-06-25 15:10:06.445] Updating testing table...
+[2025-06-25 15:10:06.445] Populating testing table with 904 configs.
+[2025-06-25 15:10:07.564] Testing table updated.
+[2025-06-25 15:10:07.572] Updated Ping Statistics: Available=0/15355
+[2025-06-25 15:10:07.576] Extracted profile: Unknown with 15355 configs
+[2025-06-25 15:10:11.599] Saved 47 extracted profiles
+[2025-06-25 15:10:11.603] Updated profile combos with 47 extracted profiles
+[2025-06-25 15:10:11.604] Extracted 1 profiles from current configs
+[2025-06-25 15:10:11.605] Saved 7 connection history entries
+[2025-06-25 15:10:11.606] Updated history combo with 7 entries
+[2025-06-25 15:10:11.611] Switched to Testing tab
+[2025-06-25 15:10:11.611] 📡 process_input() completed
+[2025-06-25 15:10:11.611] ⚠️  No automated workflow active, skipping continuation
+[2025-06-25 15:10:26.587] Attempting to kill all Xray processes
+[2025-06-25 15:10:26.710] Killed all Xray processes
+[2025-06-25 15:10:26.711] Xray process count reset from 0 to 0
+[2025-06-25 15:10:26.711] Reset Xray semaphore with limit 100000
+[2025-06-25 15:10:26.711] Application closing normally
